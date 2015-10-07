@@ -1,0 +1,58 @@
+
+
+/* start masthead */
+.masthead {
+    padding: 6em 0;
+  
+    background-image: url(http://i173.photobucket.com/albums/w79/Luke_Bucciarelli/photo-1437532437759-a0ce0535dfed_zps4vlfflxh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    border-top: solid 0em white;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+}
+
+/* middle */ 
+
+.part-one {
+	text-align: center;
+	font-family: sans-serif;
+	color: green;
+
+}
+
+
+
+
+
+
+
+
+/* Footer css */
+.footer {
+  padding: 1em 0;
+  
+  background-image: url(http://i173.photobucket.com/albums/w79/Luke_Bucciarelli/photo-1437532437759-a0ce0535dfed_zps4vlfflxh.jpg);
+}
+
+footer a, footer span {
+   text-align: center;
+   display: block;
+   padding: .3em 0;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
